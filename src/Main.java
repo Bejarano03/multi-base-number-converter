@@ -15,7 +15,13 @@ public class Main {
         System.out.println("Welcome to Multi-Base Numerical Converter");
         System.out.println();
 
-        System.out
+        System.out.println("Enter a number in its original base (integer values only, no floats or negative numbers: ");
+        int originalNum = scanner.nextInt();
+        System.out.println("Enter the base of the input number (between 2 and 16): ");
+        int originalBase = scanner.nextInt();
+        System.out.println("Enter the desired base to convert this number to (between 2 and 16): ");
+        int desiredBase = scanner.nextInt();
+
 
     }
 }
